@@ -1,0 +1,42 @@
+#speed {
+  /* make navbar black and home button a different color */
+  background: black;
+  box-shadow: 0px 1px 20px 10px #565552;
+  height: auto;
+  text-align: center;
+  width: 100%;
+}
+#speed > ul > li {
+  display: inline;
+}
+#speed > ul > li > a
+{
+  color: white;
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  margin: 3px 3px;
+  padding: 0px 15px;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+  font-size: 25px;
+}
+#speed > ul > li > a:hover {
+  color: lime;
+  border-radius: 48%;
+  background-color: #474645;
+  
+}
+  /* for fast nav */
+.home-btn{
+  border-radius: 4px;
+  background-color: #1a1919;
+}
+ body{
+   background-color: #e6c78e;
+   /* change it so that the bakcground is orange which we'll keep on the sides and the middle is white. You might need to use another 'navbar' to do that */
+ }
+.Title{
+  text-align: center;
+  font-size: 40px;
+}
